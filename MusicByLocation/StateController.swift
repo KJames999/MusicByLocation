@@ -22,7 +22,7 @@ class StateController: ObservableObject {
     }
     
     func getArtists() {
-        guard let url = URL(string: "https://itunes.apple.com/search?term=Lionel%Richie&entity=musicArtist")
+        guard let url = URL(string: "https://itunes.apple.com/search?term=Lionel%20Richie&entity=musicArtist")
         else {
             print("Invalid URL")
             return
