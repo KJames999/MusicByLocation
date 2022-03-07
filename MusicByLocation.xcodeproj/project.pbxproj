@@ -11,6 +11,7 @@
 		A610C91727D001F00055A3EE /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A610C91627D001F00055A3EE /* StateController.swift */; };
 		A610C91A27D007340055A3EE /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A610C91927D007340055A3EE /* ArtistResponse.swift */; };
 		A610C91C27D007740055A3EE /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A610C91B27D007740055A3EE /* Artist.swift */; };
+		A640D04527D656090040AF27 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A640D04427D656090040AF27 /* ITunesAdaptor.swift */; };
 		A6A48B3627CFBA50004D7431 /* MusicByLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A48B3527CFBA50004D7431 /* MusicByLocationApp.swift */; };
 		A6A48B3827CFBA50004D7431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A48B3727CFBA50004D7431 /* ContentView.swift */; };
 		A6A48B3A27CFBA53004D7431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A48B3927CFBA53004D7431 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		A610C91627D001F00055A3EE /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		A610C91927D007340055A3EE /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
 		A610C91B27D007740055A3EE /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A640D04427D656090040AF27 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 		A6A48B3227CFBA50004D7431 /* MusicByLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicByLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A48B3527CFBA50004D7431 /* MusicByLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationApp.swift; sourceTree = "<group>"; };
 		A6A48B3727CFBA50004D7431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				A6A48B5F27CFBB44004D7431 /* LocationHandler.swift */,
 				A610C91427D000010055A3EE /* CLPlacemark.swift */,
 				A610C91627D001F00055A3EE /* StateController.swift */,
+				A640D04427D656090040AF27 /* ITunesAdaptor.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A48B6027CFBB44004D7431 /* LocationHandler.swift in Sources */,
+				A640D04527D656090040AF27 /* ITunesAdaptor.swift in Sources */,
 				A6A48B3827CFBA50004D7431 /* ContentView.swift in Sources */,
 				A6A48B3627CFBA50004D7431 /* MusicByLocationApp.swift in Sources */,
 				A610C91527D000010055A3EE /* CLPlacemark.swift in Sources */,
